@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contacto - Mewtronics</title>
-  <link rel="stylesheet" href="contactodiseño.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- esto es para que la pantalla se adapte al dispositivo. -->
+    <title>Mewtronics - Tech&Cats</title>
+    <link rel="stylesheet" href="homediseño.css"> <!-- linkeamos el archivo css -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <div class="logo-titulo">
-      <img src="https://cdn.discordapp.com/attachments/1331802657764933784/1374527273343914014/56_sin_titulo_20240808163357.png?ex=682e5fc7&is=682d0e47&hm=1e68acd4a51a2b5bcf0e65e56f27c62a7cc3b7af0d08ec89506ef60dc78558b5&" alt="Logo de Mewtronics" />
-      <h1>MEWTRONICS</h1>
-    </div>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="proyectos.html">Proyectos</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="contacto">
-      <h2>Contacto</h2>
-      <p>¡Hablá con nosotros por nuestras redes!</p>
-      <div class="botones">
-        <a href="https://www.instagram.com/mewtronics?igsh=MWF1bG5icWlkMDVhbg==" class="boton-contacto">📸 Instagram</a>
-        <a href="https://whatsapp.com/channel/0029VagnefLFi8xmIIoGyR2a" class="boton-contacto">💬 WhatsApp</a>
-      </div>
-    </section>
-  </main>
+    <header>
 
-  <footer>
-    <p>© 2025 Mewtronics. Todos los derechos reservados.</p>
-  </footer>
+          <div class="logo-titulo">
+        <img src="https://cdn.discordapp.com/attachments/1331802657764933784/1374527273343914014/56_sin_titulo_20240808163357.png?ex=682e5fc7&is=682d0e47&hm=1e68acd4a51a2b5bcf0e65e56f27c62a7cc3b7af0d08ec89506ef60dc78558b5&" alt="Logo Mewtronics">
+        <h1>Mewtronics</h1>
+          </div>
+
+        <nav> <!-- se usa para separar enlaces de navegacion, por eso no se usa div. se ponen menus principales, barras de navegacion, etc -->
+            <a style="text-decoration:none" href="home.html" >Inicio</a>
+            <a style="text-decoration:none" href="proyectos.html">Proyectos</a>
+            <a style="text-decoration:none" href="nosotros.html">Nosotros</a>
+            <a style="text-decoration:none" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome"> 
+            <h2>Bienvenido a Mewtronics</h2>
+            <p>La mejor tecnología. Descubre nuestros últimos proyectos que combinan la electrónica y el amor por los gatos.</p>
+        </section>
+
+        <section class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En Mewtronics, somos apasionados por la tecnología. Fundada en 2023, nuestra misión es crear productos que no solo mejoren la vida cotidiana, sino que también integren una buena estética.</p>
+            <p>Nuestro equipo está formado por estudiantes que trabajan juntos en el día a día para desarrollar soluciones innovadoras y seguras. Creemos en un futuro donde la tecnología y el amor se unen para modernizar con maquinaria única y positiva.</p>
+        </section>
+
+                </section>
+        <section class="counter">
+            <h2>Contador de visitas</h2>
+            <div class="counter">Visitas: 48</div>
+
+        </section>
+        <section class="notifications">
+            <h2>¡Mantenete al tanto de nuestras novedades!</h2>
+            <input type="mail" id="mail" name="mail"
+            placeholder="Ingresa tu email acá" required minlenght="8"
+            maxlenght="25" >
+            <input type="submit" value="Enviar">
+            <p>
+            <input type="checkbox" name="colegio o no" value="Sos del colegio? (ITISJT)">Sos del colegio? (ITISJT)<br>
+            </p>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Mewtronics. Todos los derechos reservados.</p> <!-- &copy es el cosito de copyright -->
+    </footer>
+
 </body>
+
+
 </html>
