@@ -1,3 +1,6 @@
+html {
+  overflow-y: scroll;
+}
 body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
@@ -136,4 +139,3 @@ footer p {
     font-size: 0.9em;
     color: #777;
 }
-
